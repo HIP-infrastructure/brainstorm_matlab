@@ -18,7 +18,7 @@ WORKDIR /apps/${APP_NAME}
 
 RUN apt-get update && \
     apt-get upgrade -y && \
-    apt-get install --no-install-recommends -y \ 
+    apt-get install --no-install-recommends -y \
     curl unzip && \
     #git clone https://github.com/brainstorm-tools/brainstorm3.git && \
     #cd brainstorm3/ && \
