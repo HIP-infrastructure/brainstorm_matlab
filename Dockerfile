@@ -23,7 +23,7 @@ RUN apt-get update && \
     #git clone https://github.com/brainstorm-tools/brainstorm3.git && \
     #cd brainstorm3/ && \
     #git checkout ${APP_VERSION} && \
-    curl -sSJ -O "http://neuroimage.usc.edu/bst/getupdate.php?c=UbsM09&src=1&bin=0" && \
+    curl -sSJ -O "https://neuroimage.usc.edu/bst/getupdate.php?c=UbsM09&src=1&bin=0" && \
     mkdir ./install && \
     unzip -q -d ./install brainstorm_*_src.zip && \
     rm brainstorm_*_src.zip && \
