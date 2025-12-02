@@ -27,8 +27,6 @@ RUN apt-get update && \
     mkdir ./install && \
     unzip -q -d ./install brainstorm_*_src.zip && \
     rm brainstorm_*_src.zip && \
-    # fix due to file permissions issue starting 251001 \
-    chmod 755 install/brainstorm3/bin/R2023a/brainstorm3.jar && \
     #chmod -R 757 brainstorm3 && \
     #brainstorm try to download this, so we do it instead
     #this file is for Matlab 2023a
